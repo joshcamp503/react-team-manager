@@ -1,0 +1,14 @@
+{
+  "players": [
+    {
+      "name": "Josh",
+      "email": "josh@email.com",
+      "id": 1
+    },
+    {
+      "name": "Cassie",
+      "email": "cassie@email.com",
+      "id": 2
+    }
+  ]
+}
