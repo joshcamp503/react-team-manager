@@ -5,8 +5,9 @@ const Navbar = () => {
     <nav className="navbar">
       <Link to="/"><h1>Team Manager</h1></Link>
       <div className="links">
-        <Link to="/">Home</Link>
+        <Link to="/roster">Roster</Link>
         <Link to="/add">Add Player</Link>
+        <Link to="/account">Account</Link>
       </div>
     </nav>
   );

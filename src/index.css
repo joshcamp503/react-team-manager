@@ -103,3 +103,38 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* team account & transaction list styles */
+.team-account h1 {
+  margin-bottom: 1rem;
+}
+
+.transaction-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.transaction-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.transaction-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+
+
+/* home page styles */
+.home button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  margin: 1rem;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

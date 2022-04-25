@@ -1,17 +1,11 @@
-import PlayerList from './PlayerList';
-import useFetch from './useFetch';
-
 const Home = () => {
-  const { data: players, isLoading, error } = useFetch('http://localhost:8000/players')
-
-  return (
+  return ( 
     <div className="home">
-      { error && <div>{ error }</div> }
-      { isLoading && <div>Loading...</div> }
-      { players && <PlayerList players={players} title={'Players:'} /> }
+      <h1>Team Manager Home Page</h1>
+      <button>Sign up</button>
+      <button>Log in</button>
     </div>
-  );
+   );
 }
-
  
 export default Home;

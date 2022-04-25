@@ -10,5 +10,22 @@
       "email": "cassie@email.com",
       "id": 2
     }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "description": "team fee",
+      "amount": 800
+    },
+    {
+      "id": 2,
+      "description": "ref fee",
+      "amount": 80
+    },
+    {
+      "id": 3,
+      "description": "deposit",
+      "amount": -100
+    }
   ]
 }

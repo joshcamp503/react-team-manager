@@ -20,7 +20,7 @@ const Add = () => {
     }).then(() => {
       setIsLoading(false)
       // history.go(-1)
-      history.push('/')
+      history.push('/roster')
     })
 
   }

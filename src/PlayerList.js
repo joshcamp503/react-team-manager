@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const PlayerList = ({ players, title }) => {
-
+console.log(players)
 
   return ( 
     <div className="player-list">
